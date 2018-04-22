@@ -1,0 +1,10 @@
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\bin\Debug\ChartingTest.exe.config
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\bin\Debug\ChartingTest.exe
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\bin\Debug\ChartingTest.pdb
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.csprojResolveAssemblyReference.cache
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.LinearChart.resources
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.Properties.Resources.resources
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.csproj.GenerateResource.Cache
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.csproj.CoreCompileInputs.cache
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.exe
+C:\Projects\ChartingTest\ChartingTest\ChartingTest\obj\Debug\ChartingTest.pdb
