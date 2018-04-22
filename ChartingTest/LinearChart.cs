@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,7 @@ namespace ChartingTest
     private Thread cpuThread5;
 
     private double[] cpuArray=new double[60];
-    private Dictionary<string, double[]> counters= new Dictionary<string, double[]>();
+    private ConcurrentDictionary<string, double[]> counters= new ConcurrentDictionary<string, double[]>();
     public LinearChart()
     {
       randomColor = new Random();
@@ -35,7 +36,7 @@ namespace ChartingTest
 
       while (true)
       {
-        if (!counters.Any(p => p.Key != seriesName))
+        if (!counters.Any(p => p.Key == seriesName))
         {
           var cpuArray = new double[60];
           counters[seriesName] = cpuArray;
